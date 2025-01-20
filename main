@@ -650,7 +650,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "Interface Hidden",
+			Name = "Interface Ocultada",
 			Content = "Aperte RightShift para reabrir a interface",
 			Time = 5
 		})
@@ -1711,8 +1711,8 @@ function OrionLib:MakeWindow(WindowConfig)
 	end  
 	
 	OrionLib:MakeNotification({
-		Name = "UI Library Upgrade",
-		Content = "New UI Library Available at sirius.menu/discord and sirius.menu/rayfield",
+		Name = "Seja bem-vindo(a)",
+		Content = "Obrigado por utilizar o Betão Script!",
 		Time = 5
 	})
 	
